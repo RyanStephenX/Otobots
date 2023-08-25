@@ -20,20 +20,20 @@ function Header(props) {
   }, []);
   return (
     <>
-      <div className={classes.frame1}>
-        <div className={classes.frame2}>
-          <div className={classes.oTOBOTS}>OTOBOTS</div>
-          <div className={classes.oTOBOTS2}>OTOBOTS</div>
-          <div className={classes.aPPAREL}>APPAREL</div>
-          <div className={classes.oTOBOTS3}>OTOBOTS</div>
-          <div className={classes.oTOBOTS4}>OTOBOTS</div>
-          <div className={classes.image3}></div>
-          <div className={classes.image2}></div>
-          <div className={classes.image1}></div>
-          <button className={classes.rectangle2}>Shop Now</button>
-          <div className={classes.sHOPNOW}></div>
-        </div>
+      {/* <div className={classes.frame1}> */}
+      <div className={classes.frame2}>
+        <div className={classes.image2}></div>
+        <div className={classes.image3}></div>
+        <div className={classes.image1}></div>
+        <div className={classes.oTOBOTS}>OTOBOTS</div>
+        <div className={classes.oTOBOTS2}>OTOBOTS</div>
+        <div className={classes.aPPAREL}>APPAREL</div>
+        <div className={classes.oTOBOTS3}>OTOBOTS</div>
+        <div className={classes.oTOBOTS4}>OTOBOTS</div>
+        <button className={classes.rectangle2}>Shop Now</button>
+        <div className={classes.sHOPNOW}></div>
       </div>
+      {/* </div> */}
     </>
   );
 }
