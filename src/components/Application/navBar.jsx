@@ -25,7 +25,7 @@ function Navbar(props) {
           <div className={`Navbar ${show && "nav___color"}`}>
             <img
               className="logo-img"
-              src="https://img00.deviantart.net/fb1c/i/2015/011/9/f/g1_autobot_logo_by_gaugespacegraphix-d84pqkf.png"
+              src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/981880f7-88a2-4f8d-a147-96b3c20cef13/d4kyd6l-0cec9156-c3b4-4599-9e0f-9de7c01dd336.png/v1/fit/w_300,h_309/transformers_icon_by_k_liss_d4kyd6l-300w.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzA5IiwicGF0aCI6IlwvZlwvOTgxODgwZjctODhhMi00ZjhkLWExNDctOTZiM2MyMGNlZjEzXC9kNGt5ZDZsLTBjZWM5MTU2LWMzYjQtNDU5OS05ZTBmLTlkZTdjMDFkZDMzNi5wbmciLCJ3aWR0aCI6Ijw9MzIwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.h279HEURFfO9GD4VuXAS5PGmrKO9UVlIbRweC_j1b2U"
             />
 
             <ul className="nav-list">
