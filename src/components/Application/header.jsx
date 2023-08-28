@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import resets from "../resets.module.css";
 import classes from "./css/header.module.css";
 import Nav from "./navBar";
 
