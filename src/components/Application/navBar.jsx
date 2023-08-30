@@ -3,13 +3,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/navBar.css";
 
 function Navbar(props) {
-  const [show, handleShow] = useState(true);
+  const [show, handleShow] = useState(false);
 
   const transitionNavBar = () => {
     if (window.scrollY > 250) {
-      handleShow(false);
-    } else {
       handleShow(true);
+    } else {
+      handleShow(false);
     }
   };
 

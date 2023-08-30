@@ -1,4 +1,25 @@
-export const productDisplay = [{
+export const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
+
+
+export const displayCarousel = [{
     id: 1,
     name: 'Wind Breaker',
     image:'https://images.squarespace-cdn.com/content/v1/51c322cfe4b032aad705a0fc/1547676599746-AZ11XNSW0KG00FCFJQAJ/LW+Windbreaker+-+Black.png?format=1000w',
