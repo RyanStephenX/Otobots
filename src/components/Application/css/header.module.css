@@ -227,6 +227,9 @@
 .rectangle2 {
     color: #fff;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     left: 229px;
     top: 459px;
     width: 298px;
@@ -239,10 +242,13 @@
             'Liberation Sans', sans-serif;
     cursor: pointer;
     transition: 0.5s;
-    /* text-shadow: 0px 4px 4px #00000040; */
+    text-decoration: none;
+    text-shadow: 0px 4px 4px #00000040; 
 }
 
 .rectangle2:hover{
     background-color: rgba(0, 0, 0, 0.5)
 }
-
+Link{
+    text-decoration: none;
+}
