@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./css/shoppingCart.module.css";
 
 const PRICE_PER_ITEM = 5;
 function Cart() {
@@ -32,13 +33,16 @@ function Cart() {
           <h2>Product Name:</h2>
           <h3>Price:</h3>
           <h4>Quantity: {quantity}</h4>
-          <button onClick={increment}>+</button>
           <button onClick={decrement}>-</button>
+          <button onClick={increment}>+</button>
         </div>
       </div>
       <div className="item-total">
         <h6>Items: {quantity}</h6>
         <p>Total: {totalPrice}</p>
+      </div>
+      <div className="checkout">
+        <button>Checkout</button>
       </div>
     </>
   );
