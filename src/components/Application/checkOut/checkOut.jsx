@@ -7,11 +7,11 @@ function Checkout() {
       <div className="delivery-container">
         <h1>Checkout</h1>
         <div className="deliver-option">
-          <ul>
+          <ol>
             <li className="payment-method">COD</li>
             <li className="payment-method">CREDIT CARD</li>
             <li className="payment-method">GCASH</li>
-          </ul>
+          </ol>
         </div>
       </div>
       <div className="bag-container">
