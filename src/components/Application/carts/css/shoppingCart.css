@@ -66,6 +66,10 @@ span {
     background-color: rgb(58, 57, 58);
 }
 
+#item{
+    position: absolute;;
+}
+
 .quantity{
     display: flex;
     justify-content: center;
@@ -108,10 +112,15 @@ h2{
 } */
 .checkout-form{
     text-align: right;
+    position: fixed;
     margin-top: 30px;
     padding: 0;
     line-height: 1;
     font-weight: bold;
+    width: 410px;
+    border: 1px solid;
+    right: 0;
+    
 }
 .item-container{
    margin-top: 10px;
@@ -231,5 +240,37 @@ h6{
 
 .button-4:-webkit-details-marker {
   display: none;
+}
+
+
+/* CSS */
+.button-1 {
+    background-color: #EA4C89;
+    border-radius: 5px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-1:hover{
+    background-color: #F082AC;
 }
 

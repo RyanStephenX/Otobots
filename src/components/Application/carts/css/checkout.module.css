@@ -1,0 +1,25 @@
+* {
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    margin: 0;
+    padding: 0;
+}
+
+.checkout-form {
+    text-align: right;
+    margin-top: 30px;
+    padding: 0;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.item-container {
+    margin-top: 10px;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.item-total {
+    display: flex;
+}
