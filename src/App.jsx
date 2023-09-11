@@ -30,9 +30,9 @@ function App(props) {
       <div className="body">
         {product}
         {/* <Carousel responsive={responsive}>{carousel} </Carousel> */}
-        <Carousel showThumbs={false} responsive={responsive}>
+        {/* <Carousel showThumbs={false} responsive={responsive}>
           {carousel}
-        </Carousel>
+        </Carousel> */}
       </div>
     </>
   );

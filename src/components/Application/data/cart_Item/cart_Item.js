@@ -11,7 +11,7 @@ export const cartItem = [
   },
   {
     id: 2,
-    product: "Short",
+    product: "tShirt",
     price: "10000",
     color: "Black",
     size: "45",

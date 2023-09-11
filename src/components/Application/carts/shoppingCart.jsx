@@ -75,7 +75,17 @@ export default function Cart(props) {
           </div>
         </div>
       ))}
-      <CartCheckout quantity={totalQuantity} totalPrice={totalPrice} />
+      {cartItem.map((item) => (
+        <CartCheckout
+          key={item.id}
+          product={item.product}
+          price={item.price}
+          color={item.color}
+          size={item.size}
+          quantity={totalQuantity}
+          totalPrice={totalPrice}
+        />
+      ))}
     </>
   );
 }
