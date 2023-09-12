@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 export const Login = (props) => {
   const [email, setEmail] = useState("");
@@ -28,6 +29,11 @@ export const Login = (props) => {
       <button onClick={() => props.onFormSwitch("Register")}>
         Don't have an account? Register here.
       </button>
+      <div className="backButton">
+        <li>
+          <Link to="/">Back</Link>
+        </li>
+      </div>
     </>
   );
 };

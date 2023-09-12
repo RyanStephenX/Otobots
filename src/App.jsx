@@ -11,8 +11,6 @@ import {
   responsive,
 } from "./components/Application/data/item_display/displayCarousel";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import userLogin from "./userLog";
 
 function App(props) {
   const product = productDisplay.map((item) => (

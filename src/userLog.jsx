@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./css/userLog.css";
 import { Login } from "./components/Application/userLogin/userLogin";
 import { Register } from "./components/Application/userLogin/userRegister";
-function userLogin() {
+
+function UserLogin() {
   const [currentform, setCurrentForm] = useState("Login");
   const toggleForm = (formName) => {
     setCurrentForm(formName);
@@ -20,4 +21,4 @@ function userLogin() {
   );
 }
 
-export default userLogin;
+export default UserLogin;
