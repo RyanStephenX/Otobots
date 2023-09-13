@@ -3,6 +3,7 @@ import classes from "./css/header.module.css";
 import Nav from "./navBar";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import UserLogin from "../../userLog";
+import { memo } from "react";
 
 function Header(props) {
   const [show, handleShow] = useState(true);
