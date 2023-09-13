@@ -13,24 +13,16 @@ import {
 import { Carousel } from "react-responsive-carousel";
 
 function App(props) {
-  const product = productDisplay.map((item) => (
-    <Body key={item.id} name={item.name} img={item.image} price={item.price} />
-  ));
-
-  const carousel = displayCarousel.map((prod) => (
-    <BodyCarousel key={prod.id} img1={prod.image} />
-  ));
+  // const carousel = displayCarousel.map((prod) => (
+  //   <BodyCarousel key={prod.id} img1={prod.image} />
+  // ));
   return (
     <>
       <div className="header">
         <Header />
       </div>
       <div className="body">
-        {product}
-        {/* <Carousel responsive={responsive}>{carousel} </Carousel> */}
-        {/* <Carousel showThumbs={false} responsive={responsive}>
-          {carousel}
-        </Carousel> */}
+        <Body />
       </div>
     </>
   );
