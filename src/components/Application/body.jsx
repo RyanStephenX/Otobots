@@ -31,10 +31,10 @@ function Body() {
     setIsOpen(true);
   }
 
-  function afterOpenModal() {
-    // references are now sync'd and can be accessed.
-    subtitle.style.color = "#f00";
-  }
+  // function afterOpenModal() {
+  //   // references are now sync'd and can be accessed.
+  //   subtitle.style.color = "#f00";
+  // }
 
   function closeModal() {
     setIsOpen(false);
@@ -54,12 +54,16 @@ function Body() {
 
       <Modal
         isOpen={modalIsOpen}
-        onAfterOpen={afterOpenModal}
+        // onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
         style={customStyles}
         contentLabel="Example Modal"
+        ariaHideApp={false}
       >
-        <button onClick={closeModal}>close</button>
+        <button className={classes.button} onClick={closeModal}>
+          X
+        </button>
+
         <UserLogin />
       </Modal>
     </>
